@@ -7,23 +7,16 @@
 </head>
 <body>
 
+  <!-- この下で5 + 7を出力しましょう -->
   <?php
-    // 'Hello, world!'をechoしてください
-    echo "Hello, world!"
+    echo 5 + 7
   ?>
 
   <br>
 
+  <!-- この下で'5 + 7'を出力しましょう -->
   <?php
-    // 7 * 2をechoしてください
-    echo 7 * 2
-  ?>
-
-  <br>
-
-  <?php
-    // 8 % 3をechoしてください
-    echo 8 % 3
+    echo "5 + 7"
   ?>
 
 </body>
