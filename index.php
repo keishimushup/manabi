@@ -9,20 +9,16 @@
 
   <?php
 
-    // 変数$iを定義してください
-    $i = 2;
-
-    // while文を書いてください
-    while ($i <= 100) {
-      if ($i % 2 == 0) {
-        echo $i;
-        echo '<br>';
+    // この下にfor文を書いてください
+    for ($i = 1; $i <= 1000; $i++){
+      if ($i > 500){
+        break;
       }
-      $i++;
+      echo $i;
+      echo '<br>';
     }
 
   ?>
 
 </body>
 </html>
-
