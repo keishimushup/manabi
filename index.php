@@ -24,16 +24,22 @@
         <div class="form-item">名前</div>
         <input type="text" name="name">
 
+        <div class="form-item">年齢</div>
+        <!-- この下にselectタグを書いていきましょう -->
+        <select name="age">
+          <option value="未選択">選択してください</option>
+          <option value="20代">20代</option>
+          <option value="30代">30代</option>
+        </select>
+
         <div class="form-item">内容</div>
         <textarea name="body"></textarea>
 
-        <!-- この下に送信ボタンを作りましょう -->
         <input type="submit" value="送信">
-        
       </form>
     </div>
   </div>
-  
+
   <div class="footer">
     <div class="footer-left">
       <ul>
