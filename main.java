@@ -10,6 +10,6 @@ class Main {
     System.out.println("私の名前は" + name + "です");
     // 「年齢は◯◯歳です」と出力してください
     System.out.println("年齢は" + age + "歳です");
-    
+
   }
 }
