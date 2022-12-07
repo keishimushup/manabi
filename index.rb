@@ -1,11 +1,6 @@
-languages = ["日本語", "英語", "スペイン語"]
-border = "---------------------"
+# 変数examにハッシュを代入してください
+exam = {"subject" => "Math", "score" => 80}
+# （メモ）キーに文字列を使うときは""が必要になる
 
-languages.each do |language|
-  # 変数borderを出力してください
-  puts border
-  puts "#{language}を話せます"
-end
-
-# 以下のコードを削除してください
-
+# 変数examを出力してください
+puts exam
