@@ -1,8 +1,7 @@
 class Menu
   attr_accessor :name
   attr_accessor :price
-  
-  # initializeメソッドを書き換えてください
+
   def initialize(name:, price:)
     self.name = name
     self.price = price
