@@ -18,4 +18,9 @@ class Menu
     end
     return total_price
   end
+  
+  # クラスメソッド「is_discount_day?」を定義してください
+  def Menu.is_discount_day?
+  end
+  
 end
